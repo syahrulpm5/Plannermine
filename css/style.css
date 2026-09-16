@@ -1,0 +1,111 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+aside {
+    width: 20%;
+    min-height: 100vh;
+    background: #ffffff;
+    border-right: 1px solid #e5e7eb;
+    padding:25px;
+}
+
+.menu-title {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color:#1f2937;
+}
+
+.menu-list {
+    list-style: none;
+}
+
+.menu-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 18px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition:0.3s;
+}
+
+.menu-list li:hover{
+    background:#e8f0ff;
+    color:#4F8CFF;
+}
+
+.menu-list li.active {
+    background:#4F8CFF;
+    color:white;
+    font-weight:500;
+}
+main {
+    flex: 1;
+    background:#f5f7fb;
+    padding:30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 30px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+    background:white;
+    box-shadow:0 4px 12px rgba(0,0,0,.05);
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-right input {
+    padding: 10px 15px;
+    border:none;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    outline: none;
+    background: #f3f4f6;
+    width: 220px;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    margin: 20px;
+
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+
+    transform: translateY(-5px);
+}
+.bottom-section {
+    display:flex;
+    gap:20px;
+}
+
+.task-card,
+.event-card{
+    flex:1;
+}
