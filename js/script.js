@@ -1,4 +1,4 @@
-const appName = "PlannerMIne";
+const appName = "PlannerMine";
 let completedTasks = 2;
 
 completedTasks = completedTasks + 1;
