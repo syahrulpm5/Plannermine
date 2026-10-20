@@ -22,3 +22,8 @@ PlannerMine is a personal project developed to practice web development and GitH
 ## Project Status
 
 Currently in development.
+
+## Learning Progress
+
+- Learning Git and GitHub
+- Building PlannerMine step by step
